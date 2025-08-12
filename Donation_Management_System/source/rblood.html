@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<style>
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+</style>
+<body>
+<div> Full Name of the blood recipient:<input type="text" name="name">
+Address:<input type="text" name="address">
+<div class="form__item">
+                        <label class="form__label" for="EmailAddress">Email</label>
+                        <input class="form__control" data-val="true" data-val-maxlength="The field Email Address must be a string or array type with a maximum length of &#39;50&#39;." data-val-maxlength-max="50" data-val-regex="Please enter a valid email address" data-val-regex-pattern="[0-9A-Za-z&#39;\.\-_+]{1,127}@[0-9A-Za-z&#39;\.\-_]{1,127}$" id="EmailAddress" name="EmailAddress" type="text" value="" />
+                        
+                    </div>
+                    
+                    <!-- Contact mobile-->
+                    <div class="form__item">
+                        <label class="form__label" for="MobileNo">Mobile</label>
+                        <input class="form__control" data-val="true" data-val-maxlength="The field Mobile No must be a string or array type with a maximum length of &#39;21&#39;." data-val-maxlength-max="21" data-val-regex="Please enter a valid telephone number" data-val-regex-pattern="^\+?[0-9 \-\(\)]{1,20}$" id="MobileNo" name="MobileNo" type="text" value="" />
+                        
+                    </div>
+Blood group needed:
+<input type="radio" name="blood" value="o+" checked>O+<br>
+  <input type="radio" name="blood" value="o-"> O-<br>
+  <input type="radio" name="blood" value="a+"> A+
+<input type="radio" name="blood" value="a-"> A-
+<input type="radio" name="blood" value="ab+"> AB+
+<input type="radio" name="blood" value="ab-"> AB-
+<input type="radio" name="blood" value="b+"> B+
+<input type="radio" name="blood" value="b-"> B-
+<input type="submit">
+</div>
+</body>
+</html>
+
