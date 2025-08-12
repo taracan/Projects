@@ -1,0 +1,13 @@
+<html>
+<body bgcolor="yellow">
+<center><br>
+<br>
+<br>
+<h1><a href="adduser.html"  TARGET="B2"><font size="10"><i>ADDUSER</i></font></a><br></h1>
+<h1><a href="deleteuser.html"  TARGET="B2"><font size="10"><i>DELETEUSER</i></font></a><br></h1>
+<h1><a href="checkbalance.html"  TARGET="B2"><font size="10"><i>CHECKBALANCE</i></font></a><br></h1>
+<h1><a href="viewall.jsp"  TARGET="B2"><font size="10"><i>VIEWALL</i></font></a><br></h1>
+</body>
+</html>
+
+				

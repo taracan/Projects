@@ -1,0 +1,13 @@
+<body bgcolor="yellow">
+<center><br>
+<br>
+<br>
+<h1><a href="deposit.html"  TARGET="B2"><font size="10"><i>DEPOSIT</i></font></a><br></h1>
+<h1><a href="withdraw.html"  TARGET="B2"><font size="10"><i>WITHDRAW</i></font></a><br></h1>
+<h1><a href="checkbalance.html"  TARGET="B2"><font size="10"><i>CHECKBALANCE</i></font></a><br></h1>
+<h1><a href="transfer.html"  TARGET="B2"><font size="10"><i>TRANSFER</i></font></a><br></h1>
+<h1><a href="changepassword.html"  TARGET="B2"><font size="10"><i>CHANGE PASSWORD</i></font></a><br></h1>
+</body>
+</html>
+
+				

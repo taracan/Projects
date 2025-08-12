@@ -1,0 +1,6 @@
+<form action="withdraw.jsp" method="POST">
+Account number:<input type="text" name="an"><br><br>
+Amount:<input type="text" name="amt"><br><br>
+<input type="submit" value="submit" >
+</center>
+</form>

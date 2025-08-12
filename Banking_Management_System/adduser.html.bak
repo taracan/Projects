@@ -1,0 +1,11 @@
+<form action="adduser.jsp" method="POST">
+Username:<input type="text" name="usname"><br><br>
+Password:<input type="password" name="pwd"><br><br>
+Account number:<input type="text" name="an"><br><br>
+Minimum Balance:<input type="text" name="pwd"><br><br>
+Gender:<input type="text" name="g"><br><br>
+Email:<input type="text" name="em"><br><br>
+Phonenumber:<input type="text" name="pn"><br><br>
+<input type="submit" value="submit" >
+</center>
+</form>

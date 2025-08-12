@@ -1,0 +1,24 @@
+<%@ page import="java.sql.*"%>
+<%@ page import="java.io.*"%>
+<%
+try{
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","123456");
+	Statement stmt=con.createStatement();
+	ResultSet rs=stmt.executeQuery("select * from customer"); %>
+	<table align="center" border="1" width="30%">
+<caption>The table :</caption>
+<tr><th>username</th><th>password</th><th>accountno.</th><th>balance</th><th>gender</th><th>email</th><th>phonenumber</th></tr>
+<%
+	while(rs.next())
+	{
+		out.println( "<tr><td>"+rs.getString(1)+"</td><td>"+rs.getString(2)+"</td><td>"+rs.getString(3)+"</td><td>"+rs.getString(4)+"</td><td>"+rs.getString(5)+"</td><td>"+rs.getString(6)+"</td><td>"+rs.getString(7)+"</td></tr>");
+	}
+}
+catch(Exception e)
+	{
+		out.println(e);
+	}
+
+
+%>

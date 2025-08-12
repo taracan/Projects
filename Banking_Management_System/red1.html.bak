@@ -1,0 +1,9 @@
+<html>
+<frameset rows="10%,90%">
+<frame src="a.html" name="1">
+<frameset cols="30%,70%">
+<frame src="g1.html" NAME="f1">
+<frame src="g2.html" NAME="f2">
+</frameset>
+</frameset>
+</html>

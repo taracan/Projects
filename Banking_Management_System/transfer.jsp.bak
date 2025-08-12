@@ -1,0 +1,51 @@
+<%@ page import="java.sql.*"%>
+<%@ page import="java.io.*"%>
+<% int at=0,f=1;
+String an=request.getParameter("san");
+int san=Integer.parseInt(an);
+String azn=request.getParameter("dan");
+int dan=Integer.parseInt(azn);
+String am=request.getParameter("amt");
+int amt=Integer.parseInt(am);
+try{
+	Class.forName("com.mysql.jdbc.Driver");
+	Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/bank","root","123456");
+	Statement stmt=con.createStatement();
+	ResultSet rs=stmt.executeQuery("select balance from customer where account="+san);
+	
+	while(rs.next())
+	{
+		
+		 at=Integer.parseInt(rs.getString(1))-amt;
+		 if(at<0)
+		{
+			 out.println("this is not possible bcos your balance is less than the amt you have requested");
+			 f=0;
+		 break;
+		}}
+		out.println(f);
+    stmt.executeUpdate("UPDATE customer SET balance="+at+" WHERE account="+san);
+	while(f!=0)
+	{
+	 ResultSet res=stmt.executeQuery("select balance from customer where account="+dan);
+	while(res.next())
+	{
+		
+		at=Integer.parseInt(res.getString(1))+amt;
+	}
+		 
+    stmt.executeUpdate("UPDATE customer SET balance="+at+" WHERE account="+dan);
+	
+
+	out.println("thank you");
+	}
+	
+	
+}
+	catch(Exception e)
+	{
+		out.println(e);
+	}
+
+
+%>
