@@ -1,0 +1,11 @@
+VIN (1-10),County,City,State,Postal Code,Model Year,Make,Model,Electric Vehicle Type,Clean Alternative Fuel Vehicle (CAFV) Eligibility,Electric Range,Base MSRP,Legislative District,DOL Vehicle ID,Vehicle Location,Electric Utility,2020 Census Tract
+1N4AZ0CP8D,King,Shoreline,WA,98177,2013,NISSAN,LEAF,Battery Electric Vehicle (BEV),Clean Alternative Fuel Vehicle Eligible,75,0,32,125450447,POINT (-122.36498 47.72238),CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA),53033020100
+5YJSA1E45K,King,Seattle,WA,98112,2019,TESLA,MODEL S,Battery Electric Vehicle (BEV),Clean Alternative Fuel Vehicle Eligible,270,0,43,101662900,POINT (-122.30207 47.64085),CITY OF SEATTLE - (WA)|CITY OF TACOMA - (WA),53033006300
+WVGUNPE28M,Kitsap,Olalla,WA,98359,2021,VOLKSWAGEN,ID.4,Battery Electric Vehicle (BEV),Eligibility unknown as battery range has not been researched,0,0,26,272118717,POINT (-122.54729 47.42602),PUGET SOUND ENERGY INC,53035092803
+JTDKARFP6H,Thurston,Olympia,WA,98501,2017,TOYOTA,PRIUS PRIME,Plug-in Hybrid Electric Vehicle (PHEV),Not eligible due to low battery range,25,0,22,349372929,POINT (-122.89166 47.03956),PUGET SOUND ENERGY INC,53067010400
+1FADP5CU9G,Thurston,Olympia,WA,98506,2016,FORD,C-MAX,Plug-in Hybrid Electric Vehicle (PHEV),Not eligible due to low battery range,19,0,22,171625653,POINT (-122.87741 47.05997),PUGET SOUND ENERGY INC,53067010300
+5YJ3E1EA9L,Snohomish,Bothell,WA,98012,2020,TESLA,MODEL 3,Battery Electric Vehicle (BEV),Clean Alternative Fuel Vehicle Eligible,266,0,1,127104078,POINT (-122.21061 47.83448),PUGET SOUND ENERGY INC,53061052009
+5YJSA1E26J,Snohomish,Bothell,WA,98012,2018,TESLA,MODEL S,Battery Electric Vehicle (BEV),Clean Alternative Fuel Vehicle Eligible,249,0,1,104605490,POINT (-122.21061 47.83448),PUGET SOUND ENERGY INC,53061052009
+1C4JJXP6XP,Kitsap,Poulsbo,WA,98370,2023,JEEP,WRANGLER,Plug-in Hybrid Electric Vehicle (PHEV),Not eligible due to low battery range,21,0,23,240675865,POINT (-122.64681 47.73689),PUGET SOUND ENERGY INC,53035090201
+5UXTS1C01M,Thurston,Rochester,WA,98579,2021,BMW,X3,Plug-in Hybrid Electric Vehicle (PHEV),Not eligible due to low battery range,17,0,20,152190328,POINT (-123.08743 46.82175),PUGET SOUND ENERGY INC,53067012730
+JN1AZ0CP2C,King,Burien,WA,98168,2012,NISSAN,LEAF,Battery Electric Vehicle (BEV),Clean Alternative Fuel Vehicle Eligible,73,0,33,
