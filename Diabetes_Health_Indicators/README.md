@@ -88,5 +88,3 @@ Predictive modeling can inform early detection, improve resource allocation, and
 - Peihua Tsai  
 - Tara Canugovi  
 
-3. [National Diabetes Statistics Report – CDC](https://www.cdc.gov/diabetes/php/data-research/index.html)  
-4. [WHO – Urgent action needed on rising diabetes cases](https://www.who.int/news/item/13-11-2024-urgent-action-needed-as-global-diabetes-cases-increase-four-fold-over-past-decades)  
